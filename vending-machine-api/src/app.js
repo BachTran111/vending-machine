@@ -52,7 +52,7 @@ app.get(
 app.use(errorHandler);
 
 // start server
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });
 

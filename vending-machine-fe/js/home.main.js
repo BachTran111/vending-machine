@@ -1,5 +1,5 @@
 // js/home.main.js
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "/api";
 
 function vnd(n) {
   const num = Number(n) || 0;
