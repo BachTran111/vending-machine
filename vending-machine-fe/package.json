@@ -1,0 +1,13 @@
+{
+  "name": "vending-machine-fe",
+  "version": "1.0.0",
+  "description": "Frontend for Vending Machine",
+  "scripts": {
+    "start": "npx http-server . -p 5000",
+    "build": "echo \"No build step required\""
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "proxy": "http://localhost:5000"
+}

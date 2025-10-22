@@ -33,7 +33,7 @@
     {
       "id": 1,
       "product_id": 1,
-      "quantity": 10
+      "quantity": 9
     },
     {
       "id": 2,
@@ -43,7 +43,7 @@
     {
       "id": 3,
       "product_id": 3,
-      "quantity": 13
+      "quantity": 10
     }
   ],
   "transactions": [
