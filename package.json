@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run start --prefix vending-machine-api",
-    "build": "npm install --prefix vending-machine-api"
+    "build": "npm install --prefix vending-machine-api",
+    "postinstall": "npm install --prefix vending-machine-api && npm install --prefix vending-machine-fe"
   },
   "repository": {
     "type": "git",
